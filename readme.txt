@@ -7,7 +7,7 @@ Install: apt-get install opensc pcscd pcsc-tools libusb-dev libusb-0.1-4
 
 File location: /usr/lib/pcsc/drivers/ezusb.bundle/Contents/Linux/ezusb.so
 
-Loaded with: systemctl enablestart pcscd.service
+Loaded with: systemctl enable --now pcscd.service
 
 /etc/os-release
 ================
